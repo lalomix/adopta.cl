@@ -1,100 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
     <title>Contacto | Adopta.cl</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Inicio Menu Superior -->
     <header>
-        <nav class="menu">
-            <a href="../index.html"><img class="logo" src="../images/logowhite.png" alt="logo adopta.cl"></a>
-                <ul class="menu_items">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="adopta.html">Adopta</a></li>
-                    <li class="active"><a href="contacto.html">Contacto</a></li>
-                </ul>
-        </nav>
+      <nav class="menu">
+        <a href="../index.html"
+          ><img class="logo" src="../images/logowhite.png" alt="logo adopta.cl"
+        /></a>
+        <ul class="menu_items">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="adopta.html">Adopta</a></li>
+          <li class="active"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- Fin Menu Superior -->
     <!-- Inicio del Contenido del Sitio -->
-        <main>
-            <form>
-            <div class="form-group">
-            <h1>Formulario de contacto</h1>
-            <fieldset class="contact">
-                <legend>Adopta Aqui!</legend>
-                <form action="">
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" placeholder="Juan">
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" name="apellido" placeholder="Perez">
-                    </div>
-                    <div>
-                        <label for="email">Ingresa tu Mail</label>
-                        <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required>
-                    </div>
-                    <div>
-                        <label for="telefono">Ingresa tu Telefono</label>
-                        <input type="text" name="telefono" placeholder="+ 569 123 456 7891" required>
-                    </div>
-                    <div>
-                        <label for="hogar">Donde Vives?</label>
-                        <input type="radio" name="hogar" value="casa">Casa
-                        <input type="radio" name="hogar" value="departamento">Departamento
-                        <input type="radio" name="hogar" value="parcela">Parcela
-    
-                    </div>
-                    <div>
-                        <label for="mascota">Mascota que deseas Adoptar</label>
-                        <select name="mascota" id="">
-                            <option value="perro">Perro</option>
-                            <option value="gato">Gato</option>
-                            <option value="otro">Otro*</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="otro">Si tu seleccion fue otro, favor escribe cual mascota deseas adoptar</label>
-                        <input type="text" name="otro" placeholder="Tortuga">
-                    </div>
-                    <div>
-                        <label for="comentario">Cuentanos en breves palabras, porque eres la o él indicado(a) para adotar a un nuevo integrante de tu familia</label>
-                        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar"> 
-                    </div>
-                    <div>
-                        <input type="reset" value="Borrar"> 
-                    </div>
-                    <img src="../images/contacto.jpg" alt="adopta" width="50%">
-                </form>
-            </fieldset>
-        </div>
-        </form>
-        </main>
-        <!-- Fin del Contenido del Sitio -->
-        <!-- Inicio Footer -->
-         <footer>
-            <div>
-            <p class="footer-r">www.adopta.cl © | Sitio Realizado por <strong>el Mix</      strong> 😎 </p> 
-            </div>
-        </footer>
-        <!-- Fin Footer -->
+    <main class="contenedor1x1">
+      <form>
+        <div class="form-group">
+          <h1>Formulario de contacto</h1>
 
-</body>
+          <div class="container py-4">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label class="form-label" for="name">Nombre</label>
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Nombre"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="emailAddress"
+                  >Correo Electronico</label
+                >
+                <input
+                  class="form-control"
+                  id="emailAddress"
+                  type="email"
+                  placeholder="Correo Electronico"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="message">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  type="text"
+                  placeholder="Mensaje"
+                  style="height: 10rem"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button
+                  class="btn btn-primary btn-lg"
+                  type="submit"
+                  style="background-color: #00526f"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!-- Fin del Contenido del Sitio -->
+    <!-- Inicio Footer -->
+    <footer>
+      <div>
+        <p class="footer-r">
+          www.adopta.cl © | Sitio Realizado por <strong>el Mix</strong> 😎
+        </p>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+  </body>
 </html>

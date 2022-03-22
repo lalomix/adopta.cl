@@ -21,6 +21,15 @@ h1 {
   text-align: center;
   color: #00526f;
 }
+h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+  background-color: rgba(61, 59, 59, 0.4);
+}
 p {
   font-family: "Roboto", Verdana;
   font-size: 18px;

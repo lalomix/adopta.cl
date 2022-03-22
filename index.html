@@ -12,7 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="./js/bootstrap.min.js"></script>
 
     <title>Home | Adopta.cl</title>
   </head>
@@ -35,11 +36,63 @@
     <!-- Fin Menu Superior -->
     <!-- Inicio del Contenido del Sitio -->
 
-    <main class="contenedor1x1">
-      <div class="a">
-        <img class="imgcontent" src="./images/adopta.jpg" alt="adopta" />
+    <!-- Carrusel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/slide3.jpg"
+            alt="Adopta a Roco"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h2>Adopta a ROCO !</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/slide2.jpg"
+            alt="Adopta a Canela"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h2>Adopta a CANELA !</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/slide1.jpg"
+            alt="Adopta a Capitan"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h2>Adopta a CAPITAN !</h2>
+          </div>
+        </div>
       </div>
-    </main>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
 
     <!-- Fin del Contenido del Sitio -->
     <!-- Inicio Footer -->
