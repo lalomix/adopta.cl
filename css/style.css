@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+/* inicio estilos header */
+header {
+  color: white;
+  background-color: #00526f;
+  font-family: "Roboto", Verdana;
+  width: 100%;
+}
+
 body {
   background-image: url(../images/background.png);
   background-size: cover;
@@ -144,19 +152,10 @@ p {
 
 /* inicio estilos footer */
 footer {
-  margin-top: 25px;
-  height: 55px;
   color: white;
   background-color: #00526f;
-  line-height: 55px;
   font-family: "Roboto", Verdana;
   width: 100%;
-  display: block;
-}
-
-.footer-r {
-  text-align: right;
-  margin-right: 25px;
 }
 
 /* fin estilos footer */
